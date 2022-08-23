@@ -1,0 +1,6 @@
+block
+trees
+mines
+craft
+horse
+

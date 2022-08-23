@@ -4,7 +4,7 @@
 
 using namespace std;
 
-string archive[100];// = {"clear","reaps","crawl"};
+string archive[5];// = {"clear","reaps","crawl"};
 string backgrounds[] = {"\x1b[37;41m","\x1b[37;42m","\x1b[37;43m","\x1b[37;44m","\x1b[37;45m","\x1b[37;46m","\x1b[37;47m"};
 string guessBoard[6][5];
 string colorBoard[6][5];
@@ -218,7 +218,7 @@ void fileInput() {
     exit(1);
   }
   string s;
-  for(int i=0; i<100; i++){
+  for(int i=0; i<5; i++){
     in_stream>>s;
     archive[i] = s;
   }
